@@ -1,0 +1,3 @@
+[submodule "uastar"]
+	path = uastar
+	url = git@github.com:felselva/uastar.git

@@ -1,0 +1,11 @@
+FileVersion = 1
+
+[Project]
+Name = "uastar-beef"
+DefaultNamespace = "uastar"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\uastar_d.lib"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(ProjectDir)\\libs\\windows\\x64\\uastar.lib"]

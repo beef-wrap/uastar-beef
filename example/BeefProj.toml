@@ -1,0 +1,9 @@
+FileVersion = 1
+Dependencies = {corlib = "*", uastar-beef = "*"}
+
+[Project]
+Name = "example"
+TargetType = "BeefGUIApplication"
+StartupObject = "example.Program"
+
+[Configs.Debug.Win64]
